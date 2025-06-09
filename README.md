@@ -1,12 +1,70 @@
-# React + Vite
+# ♻️ WeWantWaste - Skip Selection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive React application that allows users to select different skip sizes for waste management. Users can add skips to a cart and proceed to checkout. Built with **React**, **Vite**, **Framer Motion**, and **TailwindCSS**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📦 Skip selection with interactive item card 
+- 🛒 Dynamic cart modal with localStorage persistence  
+- 📱 Fully responsive layout (mobile & desktop)  
+- ⚡ Smooth animations using Framer Motion  
+- 🎨 Styled with TailwindCSS  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+wewantwaste/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── CartIcon.jsx
+│   │   ├── CartModal.jsx
+│   │   ├── ItemCard.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   └── NavBar.jsx
+│   ├── pages/
+│   │   └── SelectSkip.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── README.md
+└── vite.config.js.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/hamzaouadia/wewantwaste.git
+cd wewantwaste
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+```
+
+The app should be live at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🙌 Credits
+
+Developed by [Hamza Ouadia].

@@ -1,6 +1,6 @@
 import './App.css';
-import SelectSkip from '../public/pages/SelectSkip';
-import NavBar from '../public/components/NavBar';
+import SelectSkip from './pages/SelectSkip';
+import NavBar from './components/NavBar';
 
 import { useEffect, useState } from 'react';
 
