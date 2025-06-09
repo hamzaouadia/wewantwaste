@@ -32,7 +32,7 @@ export default function itemCard({ skip, skips, current, isSelected, toggleSkip 
 
             <button
                 onClick={toggleSkip}
-                className={`md:w-1/2 w-full font-bold hover:cursor-pointer text-white px-4 py-2 rounded-md transition duration-300 hover:scale-110 ${
+                className={`md:w-1/2 w-full font-bold hover:cursor-pointer text-white px-4 py-2 rounded-md transition duration-300 md:hover:scale-110 ${
                 isSelected ? 'bg-red-600 hover:bg-red-700' : 'bg-green-600 hover:bg-green-700'
                 }`}
             >

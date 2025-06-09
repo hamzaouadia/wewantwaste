@@ -49,7 +49,7 @@ export default function SelectSkip({  skips }) {
         <section className='flex flex-col h-screen pt-15 items-center justify-center bg-[#121212] w-screen text-white'>
             <div className='flex flex-col md:flex-row max-w-full max-h-full items-center justify-center gap-10'>
                 <div className='flex items-center justify-center'>
-                    <div className='flex flex-col gap-4 justify-center items-start p-4'>
+                    <div className='flex flex-col gap-4 justify-center md:items-start items-center md:text-start text-center p-4'>
                         <h1 className='md:text-6xl text-4xl font-bold'>Choose Your Skip Size</h1>
                         <h2 className='md:text-xl font-mono'>Select the skip size that best suits your needs</h2>
                         <h3 className='md:text-sx text-sm font-mono text-white/60 max-w-150'>
